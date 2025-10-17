@@ -7,5 +7,6 @@ void girarDireita(){
   digitalWrite(IN4, HIGH);
   analogWrite(ENB, 150);
 
-  delay(700);
+  delay(500);
+
 }

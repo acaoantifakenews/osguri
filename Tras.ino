@@ -5,8 +5,9 @@ void andarTras(){
 
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-  analogWrite(ENB, 150);
+  analogWrite(ENB, 1500);
 
   delay(500);
 }
+
 

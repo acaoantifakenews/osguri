@@ -7,5 +7,6 @@ void andarFrente(){
   digitalWrite(IN4, LOW);
   analogWrite(ENB, 150);
 
-  delay(1000);
+  delay(1500);
+
 }

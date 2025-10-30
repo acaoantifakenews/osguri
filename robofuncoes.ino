@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-  andarfrente();
+  andarFrente();
   pararMotores();
   girarDireita();
   andarTras();

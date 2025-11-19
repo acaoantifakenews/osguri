@@ -16,14 +16,43 @@ void setup() {
 }
 
 void loop() {
+  //primeira parte//
+  andarFrente2();
+  pararMotores();
+  girarDireita();
+  andarFrente2();
+  pararMotores();
+  girarDireita();
   andarFrente();
   pararMotores();
   girarDireita();
+  andarFrente();
+  pararMotores();
+  girarDireita();
+  andarFrente();
+  pararMotores();
+  girarAngulo();
+  andarFrente3();
+  pararMotores();
+  Farpa();
+  //segunda parte//
+  girarRegular();
+  andarFrente2();
+  pararMotores();
   andarTras();
+  pararMotores();
+  andarFrente2();
+  pararMotores();
+  girarEsquerda();
+  andarFrente2();
+  pararMotores();
+  andarTras();
+  pararMotores();
+  andarFrente2();
   pararMotores();
   girarEsquerda();
   pararMotores();
-}
-
-
-  
+  girarDireita();
+  servoMotor();
+  Farpa2();
+  //Terceira Parte//
